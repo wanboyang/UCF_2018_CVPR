@@ -18,7 +18,8 @@ conda env create -f environment.yaml
 
 
 ## Data preparation
-1. Download the [i3d features][link: https://pan.baidu.com/s/1Cn1BDw6EnjlMbBINkbxHSQ password: u4k6] and change the "dataset_path" to you/path/data
+1. Download the [c3d features][github.com/wanboyang/anomaly_feature.pytorch] and change the "dataset_path" to you/path/data
+2. Running the clip2segment.py get feature segments(32 segments for one video)
 
 
 ## Training
