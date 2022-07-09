@@ -1,5 +1,5 @@
 # Introduction
-This repository is a reproduce code for **Real-world Anomaly Detection in Survelillance Videos** (CVPR 2018).
+This repository is a reproduce code for **Real-world anomaly detection in surveillance videos** (CVPR 2018). https://openaccess.thecvf.com/content_cvpr_2018/html/Sultani_Real-World_Anomaly_Detection_CVPR_2018_paper.html
 
 
 
@@ -18,8 +18,8 @@ conda env create -f environment.yaml
 
 
 ## Data preparation
-1. Download the [c3d features][github.com/wanboyang/anomaly_feature.pytorch] and change the "dataset_path" to you/path/data
-2. Running the clip2segment.py get feature segments(32 segments for one video)
+1. Download the [c3d features][https://github.com/wanboyang/anomly_feature.pytorch].
+2. Running the clip2segment.py get feature segments(32 segments for one video) and change the "dataset_path" to you/path/data
 
 
 ## Training
